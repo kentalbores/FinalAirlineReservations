@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HomePage">
+  <grid id="27dc6" binding="Panel1" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="17" y="8" width="556" height="437"/>
+    </constraints>
+    <properties>
+      <background color="-14803426"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f0ab9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ccf91" class="javax.swing.JLabel" binding="helloUserLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Prestige Elite Std" size="28"/>
+              <foreground color="-1"/>
+              <text value="Hello User!!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b2fd6" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d3c53" class="javax.swing.JButton" binding="SignOutButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8882051"/>
+              <foreground color="-14090237"/>
+              <text value="Sign Out"/>
+            </properties>
+          </component>
+          <component id="9ec7" class="javax.swing.JButton" binding="addReservationsButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8882051"/>
+              <foreground color="-16507392"/>
+              <text value="AddReservations"/>
+            </properties>
+          </component>
+          <vspacer id="b52f5">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="49024">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="3160f" binding="DisplayPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="e491e">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="3" use-parent-layout="false">
+                <preferred-size width="1" height="1"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="line">
+              <font/>
+              <title-color color="-13683525"/>
+              <color color="-14803426"/>
+            </border>
+            <children>
+              <component id="ea715" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-14803426"/>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="Monospaced" size="14"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="71348" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="4" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Your Reservations:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

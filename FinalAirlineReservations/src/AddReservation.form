@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddReservation">
+  <grid id="27dc6" binding="Panel1" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14803426"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="12f0e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6636b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Century Gothic" size="28"/>
+              <foreground color="-1"/>
+              <text value="Add a Reservation"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bb451" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6f4b0" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Go Back"/>
+            </properties>
+          </component>
+          <component id="4adcb" class="javax.swing.JButton" binding="reserveButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8882051"/>
+              <foreground color="-1"/>
+              <text value="Reserve"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="8b2f7" class="javax.swing.JCheckBox" binding="a7AMCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+          <foreground color="-1"/>
+          <text value="7 AM"/>
+        </properties>
+      </component>
+      <component id="85af" class="javax.swing.JCheckBox" binding="a7PMCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+          <foreground color="-1"/>
+          <text value="7 PM"/>
+        </properties>
+      </component>
+      <component id="2eacd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Time"/>
+        </properties>
+      </component>
+      <grid id="a1d4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="f391d" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14803426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2cdb8" class="javax.swing.JCheckBox" binding="japanCheckBox" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14803426"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="Japan"/>
+            </properties>
+          </component>
+          <component id="850cc" class="javax.swing.JCheckBox" binding="singaporeCheckBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14803426"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="Singapore"/>
+            </properties>
+          </component>
+          <component id="312b9" class="javax.swing.JCheckBox" binding="taiwanCheckBox" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14803426"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="Taiwan"/>
+            </properties>
+          </component>
+          <component id="547b1" class="javax.swing.JCheckBox" binding="chinaCheckBox" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14803426"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="China"/>
+            </properties>
+          </component>
+          <component id="fdcea" class="javax.swing.JCheckBox" binding="southKoreaCheckBox" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14803426"/>
+              <enabled value="true"/>
+              <foreground color="-1"/>
+              <text value="South Korea"/>
+            </properties>
+          </component>
+          <component id="8ba04" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="35,000 Pesos"/>
+            </properties>
+          </component>
+          <component id="39f60" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="25,000 Pesos"/>
+            </properties>
+          </component>
+          <component id="8a582" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="23,000 Pesos"/>
+            </properties>
+          </component>
+          <component id="4f020" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="25,000 Pesos"/>
+            </properties>
+          </component>
+          <component id="4a766" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="30,000 Pesos"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="8e6b2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Destination"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
